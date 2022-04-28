@@ -1,0 +1,51 @@
+/* Hamburger Menu & Icon */
+.topNav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.topNav .menuIcon{
+    padding: 40px 20px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+  
+.topNav .menuIcon .navIcon{
+    background: rgb(59, 57, 58);
+    display: block;
+    height: 4px;
+    width: 36px;
+    position: relative;
+}
+  
+.topNav .menuIcon .navIcon:before{
+    background: rgb(59, 57, 58);
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+}
+  
+.topNav .menuIcon .navIcon:after{
+    background: rgb(59, 57, 58);
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -10px;
+}
+
+.topNav .menu{
+    clear: both;
+    max-height: 0;
+}

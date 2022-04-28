@@ -1,0 +1,32 @@
+/* Hamburger Menu */
+@media screen and (max-width:800px){
+    .topNav .menu{
+        transition: max-height .2s ease-out;
+    }
+    .topNav .menuIcon .navIcon{
+        transition: background .2s ease-out;
+    }
+    .topNav .menuIcon .navIcon:before{
+        transition: all .2s ease-out;
+    }
+    .topNav .menuIcon .navIcon:after{
+        transition: all .2s ease-out;
+    }
+    .topNav #menuButton:checked ~ .menu{
+        max-height: 290px;
+    }
+      
+    .topNav #menuButton:checked ~ .menuIcon .navIcon{
+        background: transparent;
+    }
+      
+    .topNav #menuButton:checked ~ .menuIcon .navIcon:before{
+        transform: rotate(-45deg);
+        top: 0;
+    }
+      
+    .topNav #menuButton:checked ~ .menuIcon .navIcon:after{
+        transform: rotate(45deg);
+        top: 0;
+    }
+}

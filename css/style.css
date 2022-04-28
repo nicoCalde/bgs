@@ -1,0 +1,75 @@
+* {
+  font-family: 'Comfortaa', cursive;
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  color: rgb(59, 57, 58);
+  font-size: large;
+}
+
+/* Top Nav */
+
+.topNav{
+  background: rgba( 255, 255, 255, 0.25 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.topNav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.topNav ul a{
+  display: block;
+  padding: 20px;
+  border-right: none;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.topNav ul a:hover{
+  font-size: x-large;
+}
+
+#bgsLogo{
+  float: left;
+  display: block;
+  padding: 10px 20px;
+  width: 154px;
+  height: 94px;
+}
+
+.topNav #menuButton{
+  display: none;
+}
+
+@media (min-width:801px){
+  .topNav li{
+    float: left;
+  }
+
+  .topNav li a{
+    padding: 35px 15px;
+  }
+
+  .topNav .menu{
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+
+  .topNav .menuIcon{
+    display: none;
+  }
+
+}
