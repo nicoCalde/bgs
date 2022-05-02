@@ -22,7 +22,7 @@
         transition: all .2s ease-out;
     }
     .topNav #menuButton:checked ~ .menu{
-        max-height: 290px;
+        max-height: 350px;
     }
       
     .topNav #menuButton:checked ~ .menuIcon .navIcon{
@@ -37,5 +37,33 @@
     .topNav #menuButton:checked ~ .menuIcon .navIcon:after{
         transform: rotate(45deg);
         top: 0;
+    }
+}
+
+/* banner */
+@keyframes banner{
+    0%{
+        background-image: url('../assets/img/exterminator-white-protective-uniform-standing-by-reservoir-with-chemicals-sprayer.jpg');
+    }
+    25%{
+        background-image: url('../assets/img/exterminator-white-protective-uniform-standing-by-reservoir-with-chemicals-sprayer.jpg');
+    }
+    26%{
+        background-image: url('../assets/img/1000_F_23300175_JfxyEsBXXFFd7JXJ3CKj03ygqHzfg5Np.jpg');
+    }
+    50%{
+        background-image: url('../assets/img/1000_F_23300175_JfxyEsBXXFFd7JXJ3CKj03ygqHzfg5Np.jpg');
+    }
+    51%{
+        background-image: url('..//assets/img/man-in-blue-overalls-wearing-shoe-covers-steam-cleaning-a-carpet..jpg');
+    }
+    75%{
+        background-image: url('../assets/img/man-in-blue-overalls-wearing-shoe-covers-steam-cleaning-a-carpet..jpg');
+    }
+    76%{
+        background-image: url('../assets/img/handyman-construction-site-process-drilling-wall-with-perforator.jpg');
+    }
+    100%{
+        background-image: url('../assets/img/handyman-construction-site-process-drilling-wall-with-perforator.jpg');
     }
 }

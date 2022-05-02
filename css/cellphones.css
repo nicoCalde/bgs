@@ -4,10 +4,6 @@
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background: rgba( 255, 255, 255, 0.25 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .topNav .menuIcon{
@@ -49,6 +45,11 @@
     clear: both;
     max-height: 0;
 }
+
+.topNav ul a:hover{
+    margin-left: 15px;
+    color: black;
+  }
 
 /* footer */
 .footerColUp{
