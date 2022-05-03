@@ -1,0 +1,237 @@
+* {
+  font-family: 'Comfortaa', cursive;
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+a{
+  color: rgb(59, 57, 58);
+  font-size: 20px;
+}
+  
+#top{
+  width: 100%;
+  height: 96px;
+}
+  
+/* Top Nav */
+  
+.topNav{
+  background: rgba( 255, 255, 255, 0.25 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+  
+.topNav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+ 
+.topNav ul a{
+  display: block;
+  padding: 20px;
+  border-right: none;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+  
+#bgsLogo{
+  float: left;
+  display: block;
+  padding: 10px 20px;
+  width: 154px;
+  height: 94px;
+}
+  
+.topNav #menuButton{
+  display: none;
+}
+  
+@media (min-width:801px){
+  .topNav li{
+    float: left;
+  }
+  
+  .topNav li a{
+    padding: 35px 15px;
+  }
+  
+  .topNav .menu{
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  
+  .topNav .menuIcon{
+    display: none;
+  }
+  
+  .topNav ul a:hover{
+    font-size: 22px;
+    color: black;
+  }  
+  
+}
+  
+/* banner */
+  
+.banner{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: center;
+  transition: all .1s ease-in-out;
+  background-image: url('../assets/img/exterminator-white-protective-uniform-standing-by-reservoir-with-chemicals-sprayer.jpg');
+  animation: banner 28s infinite linear;
+}
+ 
+.bannerContent{
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgba(0,22,40,.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+.bannerContent h1{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+  
+.bannerContent h1 b{
+  font-size: 60px;
+}
+  
+.bannerContent a{
+  text-decoration: none;
+  color: white;
+  padding: 9px 20px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out;
+}
+  
+.bannerContent a:hover{
+  background-color: white;
+  color: rgb(59, 57, 58);
+}
+  
+/* footer */
+.footer{
+  background-color: rgb(30, 132, 73);
+  padding: 70px 0;
+}
+  
+.footerContainer{
+  max-width: 1170px;
+  margin: auto;
+}
+  
+.footerRow{
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+.footerColUp{
+  width: 10%;
+  padding: 0 15px;
+}
+  
+.footerColUp a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba( 255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.5s ease;
+}
+  
+.footerColUp a:hover{
+  color: rgb(59, 57, 58);
+  background-color: white;    
+}
+  
+.footerCol{
+  width: 30%;
+  padding: 0 15px;
+}
+  
+.footerCol h4{
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: 500;
+  position: relative;
+}
+  
+.footerCol ul{
+  list-style: none;
+}
+  
+.footerCol h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: rgb(59, 57, 58);
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+  
+.footerCol ul li:not(last-child){
+  margin-bottom: 10px;
+}
+  
+.footerCol ul li a{
+  font-size: 16px;
+  text-decoration: none;
+  color:#bbb;
+  font-weight: 300;
+  display: block;
+  transition: all 0.3s ease;
+}
+  
+.footerCol ul li a:hover{
+  color: white;
+  padding-left: 10px;
+}
+  
+.footerCol .socialLinks a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba( 255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.5s ease;
+}
+  
+.footerCol .socialLinks a:hover{
+  color: rgb(59, 57, 58);
+  background-color: white;
+}
