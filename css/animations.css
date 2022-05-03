@@ -43,27 +43,33 @@
 /* banner */
 @keyframes banner{
     0%{
-        background-image: url('../assets/img/exterminator-white-protective-uniform-standing-by-reservoir-with-chemicals-sprayer.jpg');
+        background-image: url('../assets/img/Banners/A\ control\ de\ plagas.jpg');
     }
-    25%{
-        background-image: url('../assets/img/exterminator-white-protective-uniform-standing-by-reservoir-with-chemicals-sprayer.jpg');
+    20%{
+        background-image: url('../assets/img/Banners/A\ control\ de\ plagas.jpg');
     }
-    26%{
-        background-image: url('../assets/img/1000_F_23300175_JfxyEsBXXFFd7JXJ3CKj03ygqHzfg5Np.jpg');
+    21%{
+        background-image: url('../assets/img/Banners/B\ limpieza\ y\ desinfeccion\ de\ tanques\ de\ agua.jpg');
     }
-    50%{
-        background-image: url('../assets/img/1000_F_23300175_JfxyEsBXXFFd7JXJ3CKj03ygqHzfg5Np.jpg');
+    40%{
+        background-image: url('../assets/img/Banners/B\ limpieza\ y\ desinfeccion\ de\ tanques\ de\ agua.jpg');
     }
-    51%{
-        background-image: url('..//assets/img/man-in-blue-overalls-wearing-shoe-covers-steam-cleaning-a-carpet..jpg');
+    41%{
+        background-image: url('../assets/img/Banners/C\ limpieza\ de\ alfombras.jpg');
     }
-    75%{
-        background-image: url('../assets/img/man-in-blue-overalls-wearing-shoe-covers-steam-cleaning-a-carpet..jpg');
+    60%{
+        background-image: url('../assets/img/Banners/C\ limpieza\ de\ alfombras.jpg');
     }
-    76%{
-        background-image: url('../assets/img/handyman-construction-site-process-drilling-wall-with-perforator.jpg');
+    61%{
+        background-image: url('../assets/img/Banners/D\ limpieza\ de\ techos\ y\ canaletas.jpg');
+    }
+    80%{
+        background-image: url('../assets/img/Banners/D\ limpieza\ de\ techos\ y\ canaletas.jpg');
+    }
+    81%{
+        background-image: url('../assets/img/Banners/E\ obras\ y\ construccion.jpg');
     }
     100%{
-        background-image: url('../assets/img/handyman-construction-site-process-drilling-wall-with-perforator.jpg');
+        background-image: url('../assets/img/Banners/E\ obras\ y\ construccion.jpg');
     }
 }
