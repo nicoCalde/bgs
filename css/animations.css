@@ -8,7 +8,7 @@
 }
 
 /* Hamburger Menu */
-@media screen and (max-width:800px){
+@media screen and (max-width:992px){
     .topNav .menu{
         transition: max-height .2s ease-out;
     }
