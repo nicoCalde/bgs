@@ -132,7 +132,7 @@ a{
     color: rgb(59, 57, 58);
 }
 
-/* Services Grid */
+/* services grid */
 #services{
     background-image: url("../assets/img/backgrounds/1.jpg");
 }
@@ -145,7 +145,7 @@ a{
     text-align: left;
     padding: 30px;
     color: rgb(59, 57, 58);
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .servicesContainer{
@@ -156,7 +156,7 @@ a{
     align-content: center;
     justify-items: center;
     align-items: center;
-    row-gap: 0px;
+    row-gap: 1em;
     column-gap: 0px;
 }
 
@@ -190,6 +190,27 @@ a{
 
 .servicesItem:hover{
     zoom: 95%;
+}
+
+/* trust grid */
+
+#trust h1{
+    text-align: left;
+    padding: 30px;
+    color: rgb(59, 57, 58);
+    font-size: 35px;
+}
+
+.companyContainer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 194px);
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    row-gap: 1em;
+    column-gap: 0px;
 }
   
 /* footer */
