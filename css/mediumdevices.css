@@ -92,6 +92,8 @@
     align-items: center;
     row-gap: 1em;
     column-gap: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     margin-bottom: 50px;
 }
 
@@ -104,4 +106,23 @@
 .footerCol{
     width: 50%;
     margin-bottom: 30px;
+}
+
+/* contact */
+.wrapper{
+    grid-template-columns: 1fr;
+}
+
+.companyInfo ul li iframe{
+    margin-bottom: 0;
+    width: 100%;
+    height: 40vh;
+}
+
+.companyInfo:nth-of-type(1) {
+    order: 2;
+}
+  
+.contact:nth-of-type(2) {
+    order: 1;
 }
