@@ -118,6 +118,22 @@
     }
 }
 
+/* about us */
+
+.us{
+    min-height: 50vh;
+}
+
+.usSection1, .usSection2{
+    padding: 0;
+    background-size: 100%;
+}
+
+.usContainer{
+    padding: 60px;
+    width: 100%;
+}
+
 /* contact */
 .wrapper{
     grid-template-columns: 1fr;
