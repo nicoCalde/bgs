@@ -397,14 +397,16 @@ a{
 }
 
 .usSkills{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    row-gap: 30px;
+    column-gap: 10px;
     font-weight: 700;
     font-size: 13px;
-}
-
-.g3{
-    margin-bottom: 20px;
 }
 
 /* contact */

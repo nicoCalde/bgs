@@ -125,6 +125,13 @@
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
+.usSkills{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    row-gap: 20px;  
+}
+
 /* contact */
 .wrapper{
     grid-template-columns: 1fr;
