@@ -403,6 +403,7 @@ a{
     justify-content: center;
     align-items: center;
     align-content: center;
+    text-align: center;
     row-gap: 30px;
     column-gap: 10px;
     font-weight: 700;

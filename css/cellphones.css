@@ -85,7 +85,6 @@
 .companyContainer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 100px);
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -138,6 +137,10 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
     row-gap: 20px;  
 }
 
