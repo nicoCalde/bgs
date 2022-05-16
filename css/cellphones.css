@@ -67,33 +67,10 @@
 /* Services Grid */
 .servicesContainer{
     grid-template-columns: repeat(1,1fr);
-    grid-template-rows: 300px 300px 300px 300px 300px 300px;
 }
 
 .servicesItem{
-    width: 90%;
-    height: 30vh;
     transition: all 0.5s ease;
-}
-
-.servicesItem .fa-solid{
-    padding-top: 5vh;
-}
-
-/* trust grid */
-
-.companyContainer{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-content: center;
-    justify-items: center;
-    align-items: center;
-    row-gap: 1em;
-    column-gap: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 100px;
 }
 
 /* footer */
@@ -146,7 +123,8 @@
 
 /* contact */
 .wrapper{
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fill,minmax(15em,1fr));
+    overflow: hidden;
 }
 
 .companyInfo ul li iframe{
