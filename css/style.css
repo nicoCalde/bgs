@@ -313,6 +313,39 @@ a{
     background-color: white;
 }
 
+/* services */
+
+.servicesContainerPage img{
+    max-width: 100%;
+}
+
+.servicesContainerPage a{
+    padding: 0.3rem 1rem;
+    text-decoration: none;
+    border: 2px solid rgb(59, 57, 58);
+}
+
+.servicesContainerPage p{
+    text-align: justify;
+    margin: 1rem 0;
+}
+
+.servicesContainerPage{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2,1fr);
+    padding: 3rem;
+    margin: 4rem;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    align-items: center;
+    column-gap: 10vh;
+}
+
+.servicesContainerPage a:hover{
+    color: white;
+    background-color: rgb(59, 57, 58);
+}
+
 /* about us */
 
 .us{
