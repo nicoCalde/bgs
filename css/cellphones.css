@@ -97,6 +97,8 @@
 /* services */
 .servicesContainerPage{
     grid-template-columns: 1fr;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 .waterTank:nth-of-type(1) {
@@ -147,6 +149,11 @@
 .wrapper{
     grid-template-columns: repeat(auto-fill,minmax(15em,1fr));
     overflow: hidden;
+    padding: 0rem;
+}
+
+.contactContainer{
+    padding: 1em;
 }
 
 .companyInfo ul li iframe{
