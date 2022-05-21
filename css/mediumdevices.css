@@ -105,6 +105,11 @@
     order: 1;
 }
 
+/* store */
+.productItems{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
 
 /* about us */
 .usSection1, .usSection2{
