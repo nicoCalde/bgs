@@ -151,7 +151,7 @@
 
 /* contact */
 .wrapper{
-    grid-template-columns: repeat(auto-fill,minmax(15em,1fr));
+    grid-template-columns: repeat(1,1fr);
     overflow: hidden;
     padding: 0rem;
 }

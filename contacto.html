@@ -49,31 +49,36 @@
                 <div class="contact">
                     <h3>Contactanos</h3>
                     <div class="line3"></div>
-                    <form action="">
-                        <p>
-                            <label for="">Nombre</label>
-                            <input type="text" name="name">
+                    <form action="" class="form" id="form">
+                        <p id="name">
+                            <label for="name">Nombre</label>
+                            <input class="" type="text" name="name">
+                            <span class="errorHint hidden">Introducir nombre</span>
                         </p>
-                        <p>
-                            <label for="">Email</label>
-                            <input type="email" name="email">
+                        <p id="email">
+                            <label for="email">Email</label>
+                            <input class="" type="email" name="email">
+                            <span class="errorHint hidden">Introducir email</span>
                         </p>
-                        <p>
-                            <label for="">Telefono</label>
-                            <input type="text" name="telefono">
+                        <p id="phone">
+                            <label for="phone">Telefono</label>
+                            <input class="" type="text" name="phone">
+                            <span class="errorHint hidden">Introducir telefono</span>
                         </p>
-                        <p>
-                            <label for="">Asunto</label>
-                            <input type="text" name="asunto">
-                        </p>
+                        <p id="subject">
+                            <label for="subject">Asunto</label>
+                            <input class="" type="text" name="subject">
+                            <span class="errorHint hidden">Inlcuir asunto</span>
+                        </p id="msg">
                         <p class="msg">
-                            <label for="">Mensaje</label>
-                            <textarea name="mensaje" id="msg" cols="30" rows="10"></textarea>
+                            <label for="msg">Mensaje</label>
+                            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
                         </p>
-                        <p class="msg">
-                            <button>Enviar</button>
+                        <p class="submit" id="submit">
+                            <button type="submit">Enviar</button>
                         </p>
                     </form>
+                    <div class="thankYou hidden">¡Gracias por comunicarte con nosotros!</div>
                 </div>
             </div>
         </div>

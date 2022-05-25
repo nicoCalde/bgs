@@ -535,7 +535,6 @@ a{
 }
 
 /* about us */
-
 .us{
     min-height: 75vh;
     display: flex;
@@ -608,7 +607,6 @@ a{
 }
 
 /* contact */
-
 .contactContainer{
     display: grid;
     grid-template-columns: 1fr;
@@ -671,11 +669,30 @@ a{
     margin: 0;
 }
 
+.contact form .errorHint{
+    padding: 0;
+    margin: 0;
+}
+
 .contact form .msg{
     grid-column: 1/3;
 }
 
-.contact form button, .contact form input, .contact form textarea{
+.contact .submit{
+    grid-column: 1/3;
+}
+
+.contact form button, .contact form textarea{
+    width: 100%;
+    padding: 1em;
+    background: rgba( 255, 255, 255, 0.05 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.1 );
+    border-radius: 2px;
+}
+
+.contact form input{
     width: 100%;
     padding: 1em;
     background: rgba( 255, 255, 255, 0.05 );
@@ -702,4 +719,22 @@ a{
 
 .contact form input, .contact form textarea{
     color: white;
+}
+
+/* validate forms */
+input.invalid{
+    border: 1px solid pink !important;
+}
+
+.errorHint{
+    color: pink;
+}
+
+.hidden{
+    opacity: 0;    
+}
+
+.thankYou{
+    text-align: center;
+    font-size: 35px;
 }
