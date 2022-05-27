@@ -723,11 +723,13 @@ a{
 
 /* validate forms */
 input.invalid{
-    border: 1px solid pink !important;
+    border: 1px solid palevioletred !important;
 }
 
 .errorHint{
-    color: pink;
+    color: palevioletred;
+    font-size: 12px;
+    padding: 0;
 }
 
 .hidden{
@@ -736,5 +738,5 @@ input.invalid{
 
 .thankYou{
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
 }
