@@ -504,7 +504,7 @@ a{
 }
 
 .product:hover .productImg{
-    background: rgb(30,132,73);
+    background: white;
 }
 
 .product:hover .productBtns{
