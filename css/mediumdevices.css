@@ -156,3 +156,21 @@
 .contact:nth-of-type(2) {
     order: 1;
 }
+
+/* modal for all service pages (pop-up contact screen) */
+
+.modalContentLeft{
+    display: none;
+}
+
+.modalContent{
+    grid-template-columns: auto;
+    margin: 15% auto;
+    width: 70%;
+    height: 70%;
+}
+
+.closeBtn{
+    top: 2%;
+    right: 5%;
+}

@@ -39,7 +39,7 @@
             <h1>Control de Plagas</h1>
             <div class="line1"></div>
             <p>
-                
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus laborum in amet iure maiores quod, eos nemo pariatur quos, quisquam esse corporis aspernatur possimus, ullam reiciendis numquam? Quibusdam, ea optio.
             </p>
         </section>
         <section class="pestControl">
@@ -107,7 +107,47 @@
                     <h3>Otras Plagas</h3>
                 </div>
             </div>
+            <button class="mainBtn">Cotizá o Consultá</button>
         </section>
+        <div class="modal" id="emailModal">
+            <div class="modalContent">
+                <span class="closeBtn">&times;</span>
+                <div class="modalContentLeft">
+                    <img id="modalImg" src="./assets/img/popup/contacto 1.png" alt="">
+                </div>
+                <div class="modalContentRight">
+                    <form action="#" method="get" class="modalForm" id="form">
+                        <h1>¡No te pierdas el mejor servicio al mejor precio!</h1>
+                        <div class="formValidation">
+                            <input type="text"  name="name" class="modalInput" id="modalName" placeholder="Nombre">
+                            <p>Introducir nombre</p>
+                        </div>
+                        <div class="formValidation">
+                            <input type="email"  name="email" class="modalInput" id="modalEmail" placeholder="Email: email@ejemplo.com">
+                            <p>Introducir email</p>
+                        </div>
+                        <div class="formValidation">
+                            <input type="text"  name="phone" class="modalInput" id="modalPhone" placeholder="Teléfono (solo números)">
+                            <p>Introducir telefono</p>
+                        </div>
+                        <div class="formValidation">
+                            <select name="subject" class="modalInput" id="modalSubject" required>
+                                <option value="">Asunto</option>
+                                <option value="1">Pedido de Cotización</option>
+                                <option value="2">Consulta</option>
+                                <option value="3">Solicitud de información</option>
+                            </select>
+                            <p>Incluir asunto</p>
+                        </div>
+                        <div class="formValidation">
+                            <textarea name="msg" id="modalMsg" cols="30" rows="10" placeholder="Incluir detalles o descripción si lo desea"></textarea>
+                        </div>
+                        <input type="submit" class="modalInputBtn" value="Enviar">
+                        <span class="modalInputMsg">No dudes en enviar tu consulta, estamos para ayudarte.</span>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="footer">
         <div class="footerContainer">
@@ -143,6 +183,6 @@
             </div>
         </div>
     </footer>
-    <script src="./js/index.js"></script>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
