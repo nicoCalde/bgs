@@ -743,7 +743,6 @@ input.invalid{
 }
 
 /* modal for all service pages (pop-up contact screen) */
-
 #emailModal{
     position: fixed;
     z-index: 10;
@@ -838,7 +837,7 @@ input.invalid{
 
 .formValidation p{
     font-size: 0.7rem;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     color: #f00e0e;
     position: absolute;
     top: 1.8rem;
@@ -857,6 +856,10 @@ input.invalid{
     border: none;
     width: 100%;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+#modalMsg{
+    padding: 10px;
 }
 
 .modalInput{
