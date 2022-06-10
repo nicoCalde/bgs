@@ -778,17 +778,24 @@ input.invalid{
 }
 
 .modalContentLeft{
-    background: rgb(59, 57, 58);
+    background: rgb(30,132,73);
     position: relative;
 }
 
 #modalImg{
-    width: 80%;
-    height: 80%;
+    width: 426px;
+    height: 423px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+@media (max-width: 1336px){
+    #modalImg{
+        width: 284px;
+        height: 282px;
+    }
 }
 
 .modalContentRight{
