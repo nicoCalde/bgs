@@ -197,3 +197,27 @@
     top: 0;
     right: 5%;
 }
+
+/* main Button (modal button) */
+
+.mainBtn{
+    width: 75%;
+}
+
+/* pest control */
+
+.pest{
+    padding: 1rem;
+    width: 13rem;
+    margin-bottom: 2rem;
+}
+
+.pest h3{
+    margin-top: 1.5rem;
+    font-size: 0.8em;
+}
+
+.pest img{
+    width: 70px;
+    height: 70px;
+}
