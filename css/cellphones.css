@@ -65,12 +65,27 @@
 }
 
 /* Services Grid */
+
 .servicesContainer{
     grid-template-columns: repeat(1,1fr);
 }
 
 .servicesItem{
     transition: all 0.5s ease;
+}
+
+/* trust grid */
+
+.companyContainer{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.companyLogo{
+    text-align: center;
+}
+
+.companyLogo>img{
+    width: 60%;
 }
 
 /* footer */
@@ -150,6 +165,9 @@
 }
 
 /* contact */
+.contact form{
+    grid-row-gap: 0;
+}
 .wrapper{
     grid-template-columns: repeat(1,1fr);
     overflow: hidden;
@@ -178,6 +196,20 @@
   
 .contact:nth-of-type(2) {
     order: 1;
+}
+
+/* services pages top part */
+
+.servicesPageTopContainer{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1,1fr);
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    align-items: center;
+    justify-items: center;
+    column-gap: 10vh;
 }
 
 /* modal for all service pages (pop-up contact screen) */
@@ -209,7 +241,7 @@
 .pest{
     padding: 1rem;
     width: 13rem;
-    margin-bottom: 2rem;
+    margin: 0 0 2rem;
 }
 
 .pest h3{

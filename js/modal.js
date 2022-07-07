@@ -56,9 +56,9 @@ function checkRequired(inputArr) {
 // check input length
 function checkLength(input, min, max) {
     if(input.value.length < min) {
-        showError(input, `El ${getFieldName(input)} tiene que tener al menos ${min} caráteres`);
+        showError(input, `El ${getFieldName(input)} con al menos ${min} caráteres`);
     } else if(input.value.length > max) {
-        showError(input, `El ${getFieldName(input)} tiene que ser menor a ${max} caráteres`);
+        showError(input, `El ${getFieldName(input)} menor a ${max} caráteres`);
     } else {
         showValid(input);
     }
