@@ -966,6 +966,25 @@ input.invalid{
     column-gap: 10vh;
 }
 
+.constructionServices h2{
+    font-size: 10px;
+}
+
+.constructionList {
+    list-style-position: inside;
+    list-style-type: circle;
+    color: rgba(70,132,73);
+}
+
+.constructionList li{
+    margin: 1rem 0;
+}
+
+.constructionList li>span {
+    color: rgb(59, 57, 58);
+}
+
+
 /* pest control */
 
 .pestControldescription h1, .pestControl h1{
